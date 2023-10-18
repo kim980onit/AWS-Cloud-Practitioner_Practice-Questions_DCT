@@ -1,0 +1,1245 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AWS Certified Cloud Practitioner Quiz</title>
+</head>
+<body>
+    <h1>AWS Certified Cloud Practitioner Quiz</h1>
+    <div id="quiz">
+        <!-- Question 1 -->
+        <div id="question1" class="question">
+            <p>1. What is the AWS shared responsibility model for security?</p>
+            <ul>
+                <li><label><input type="radio" name="q1" value="a"> a) AWS is responsible for everything</label></li>
+                <li><label><input type="radio" name="q1" value="b"> b) Customers are responsible for everything</label></li>
+                <li><label><input type="radio" name="q1" value="c"> c) AWS and customers share responsibility</label></li>
+                <li><label><input type="radio" name="q1" value="d"> d) It varies depending on the service</label></li>
+            </ul>
+            <button onclick="checkAnswer(1)">Submit</button>
+        </div>
+        <!-- Question 2 -->
+        <div id="question2" class="question">
+            <p>2. What does AWS Elastic Load Balancing (ELB) primarily help with?</p>
+            <ul>
+                <li><label><input type="radio" name="q2" value="a"> a) Securing your AWS account</label></li>
+                <li><label><input type="radio" name="q2" value="b"> b) Distributing incoming traffic across multiple EC2 instances</label></li>
+                <li><label><input type="radio" name="q2" value="c"> c) Storing and managing data</label></li>
+                <li><label><input type="radio" name="q2" value="d"> d) Running serverless applications</label></li>
+            </ul>
+            <button onclick="checkAnswer(2)">Submit</button>
+        </div>
+        <!-- Question 3 -->
+        <div id="question3" class="question">
+            <p>3. What is an AWS Availability Zone (AZ)?</p>
+            <ul>
+                <li><label><input type="radio" name="q3" value="a"> a) A geographic region where AWS data centers are located</label></li>
+                <li><label><input type="radio" name="q3" value="b"> b) A group of related AWS services</label></li>
+                <li><label><input type="radio" name="q3" value="c"> c) A type of virtual machine in AWS</label></li>
+                <li><label><input type="radio" name="q3" value="d"> d) A way to access the AWS Management Console</label></li>
+            </ul>
+            <button onclick="checkAnswer(3)">Submit</button>
+        </div>
+        <!-- Question 4 -->
+        <div id="question4" class="question">
+            <p>4. What is the primary purpose of Amazon S3 (Simple Storage Service)?</p>
+            <ul>
+                <li><label><input type="radio" name="q4" value="a"> a) Hosting web applications</label></li>
+                <li><label><input type="radio" name="q4" value="b"> b) Storing and retrieving data</label></li>
+                <li><label><input type="radio" name="q4" value="c"> c) Running virtual machines</label></li>
+                <li><label><input type="radio" name="q4" value="d"> d) Distributing emails</label></li>
+            </ul>
+            <button onclick="checkAnswer(4)">Submit</button>
+        </div>
+        <!-- Question 5 -->
+        <div id="question5" class="question">
+            <p>5. Which AWS service is designed for content delivery and acceleration?</p>
+            <ul>
+                <li><label><input type="radio" name="q5" value="a"> a) AWS CloudFront</label></li>
+                <li><label><input type="radio" name="q5" value="b"> b) AWS Elastic Beanstalk</label></li>
+                <li><label><input type="radio" name="q5" value="c"> c) AWS RDS</label></li>
+                <li><label><input type="radio" name="q5" value="d"> d) AWS Lambda</label></li>
+            </ul>
+            <button onclick="checkAnswer(5)">Submit</button>
+        </div>
+        <!-- Question 6 -->
+        <div id="question6" class="question">
+            <p>6. Which of the following is a database service provided by AWS?</p>
+            <ul>
+                <li><label><input type="radio" name="q6" value="a"> a) AWS Redshift</label></li>
+                <li><label><input type="radio" name="q6" value="b"> b) AWS S3</label></li>
+                <li><label><input type="radio" name="q6" value="c"> c) AWS Lambda</label></li>
+                <li><label><input type="radio" name="q6" value="d"> d) AWS CloudFront</label></li>
+            </ul>
+            <button onclick="checkAnswer(6)">Submit</button>
+        </div>
+        <!-- Question 7 -->
+        <div id="question7" class="question">
+            <p>7. What is the AWS Well-Architected Framework designed to help with?</p>
+            <ul>
+                <li><label><input type="radio" name="q7" value="a"> a) Secure your AWS account</label></li>
+                <li><label><input type="radio" name="q7" value="b"> b) Optimize the cost of AWS services</label></li>
+                <li><label><input type="radio" name="q7" value="c"> c) Design and implement well-architected applications</label></li>
+                <li><label><input type="radio" name="q7" value="d"> d) Monitor AWS services in real-time</label></li>
+            </ul>
+            <button onclick="checkAnswer(7)">Submit</button>
+        </div>
+        <!-- Question 8 -->
+        <div id="question8" class="question">
+            <p>8. Which AWS service allows you to set up, operate, and scale a relational database?</p>
+            <ul>
+                <li><label><input type="radio" name="q8" value="a"> a) Amazon S3</label></li>
+                <li><label><input type="radio" name="q8" value="b"> b) Amazon RDS</label></li>
+                <li><label><input type="radio" name="q8" value="c"> c) AWS Lambda</label></li>
+                <li><label><input type="radio" name="q8" value="d"> d) Amazon CloudFront</label></li>
+            </ul>
+            <button onclick="checkAnswer(8)">Submit</button>
+        </div>
+        <!-- Question 9 -->
+        <div id="question9" class="question">
+            <p>9. What is the purpose of AWS Identity and Access Management (IAM)?</p>
+            <ul>
+                <li><label><input type="radio" name="q9" value="a"> a) To manage your AWS infrastructure</label></li>
+                <li><label><input type="radio" name="q9" value="b"> b) To create virtual private clouds</label></li>
+                <li><label><input type="radio" name="q9" value="c"> c) To control access to AWS services and resources</label></li>
+                <li><label><input type="radio" name="q9" value="d"> d) To deploy serverless applications</label></li>
+            </ul>
+            <button onclick="checkAnswer(9)">Submit</button>
+        </div>
+        <!-- Question 10 -->
+        <div id="question10" class="question">
+            <p>10. What is the term used for the practice of using multiple AWS regions to ensure high availability?</p>
+            <ul>
+                <li><label><input type="radio" name="q10" value="a"> a) Redundancy</label></li>
+                <li><label><input type="radio" name="q10" value="b"> b) Elasticity</label></li>
+                <li><label><input type="radio" name="q10" value="c"> c) Multi-Region architecture</label></li>
+                <li><label><input type="radio" name="q10" value="d"> d) Cross-Region replication</label></li>
+            </ul>
+            <button onclick="checkAnswer(10)">Submit</button>
+        </div>
+        <!-- Question 11 -->
+        <div id="question11" class="question">
+            <p>11. Which AWS service provides a fully managed NoSQL database that can handle high-traffic web applications?</p>
+            <ul>
+                <li><label><input type="radio" name="q11" value="a"> a) Amazon RDS</label></li>
+                <li><label><input type="radio" name="q11" value="b"> b) Amazon DynamoDB</label></li>
+                <li><label><input type="radio" name="q11" value="c"> c) AWS Elastic Beanstalk</label></li>
+                <li><label><input type="radio" name="q11" value="d"> d) AWS Lambda</label></li>
+            </ul>
+            <button onclick="checkAnswer(11)">Submit</button>
+        </div>
+        <!-- Question 12 -->
+        <div id="question12" class="question">
+            <p>12. What does AWS Elastic Load Balancing (ELB) primarily help with?</p>
+            <ul>
+                <li><label><input type="radio" name="q12" value="a"> a) Securing your AWS account</label></li>
+                <li><label><input type="radio" name="q12" value="b"> b) Distributing incoming traffic across multiple EC2 instances</label></li>
+                <li><label><input type="radio" name="q12" value="c"> c) Storing and managing data</label></li>
+                <li><label><input type="radio" name="q12" value="d"> d) Running serverless applications</label></li>
+            </ul>
+            <button onclick="checkAnswer(12)">Submit</button>
+        </div>
+        <!-- Question 13 -->
+        <div id="question13" class="question">
+            <p>13. What is the term for an on-demand virtual server in the cloud on AWS?</p>
+            <ul>
+                <li><label><input type="radio" name="q13" value="a"> a) Virtual Private Cloud (VPC)</label></li>
+                <li><label><input type="radio" name="q13" value="b"> b) Amazon S3</label></li>
+                <li><label><input type="radio" name="q13" value="c"> c) Amazon EC2</label></li>
+                <li><label><input type="radio" name="q13" value="d"> d) AWS Lambda</label></li>
+            </ul>
+            <button onclick="checkAnswer(13)">Submit</button>
+        </div>
+        <!-- Question 14 -->
+        <div id="question14" class="question">
+            <p>14. Which AWS service allows you to securely encrypt data at rest and in transit?</p>
+            <ul>
+                <li><label><input type="radio" name="q14" value="a"> a) Amazon S3</label></li>
+                <li><label><input type="radio" name="q14" value="b"> b) AWS CloudTrail</label></li>
+                <li><label><input type="radio" name="q14" value="c"> c) AWS Key Management Service (KMS)</label></li>
+                <li><label><input type="radio" name="q14" value="d"> d) AWS Elastic Beanstalk</label></li>
+            </ul>
+            <button onclick="checkAnswer(14)">Submit</button>
+        </div>
+        <!-- Question 15 -->
+        <div id="question15" class="question">
+            <p>15. What is the AWS Shared Responsibility Model for security related to data?</p>
+            <ul>
+                <li><label><input type="radio" name="q15" value="a"> a) AWS is responsible for securing customer data.</label></li>
+                <li><label><input type="radio" name="q15" value="b"> b) Customers are responsible for securing customer data.</label></li>
+                <li><label><input type="radio" name="q15" value="c"> c) Both AWS and customers share the responsibility for securing customer data.</label></li>
+                <li><label><input type="radio" name="q15" value="d"> d) The responsibility for securing customer data is determined by the type of data.</label></li>
+            </ul>
+            <button onclick="checkAnswer(15)">Submit</button>
+        </div>
+        <div id="question16" class="question">
+            <p>16. What is the maximum duration for an AWS Lambda function invocation?</p>
+            <ul>
+                <li><label><input type="radio" name="q16" value="a"> a) 1 minute</label></li>
+                <li><label><input type="radio" name="q16" value="b"> b) 15 minutes</label></li>
+                <li><label><input type="radio" name="q16" value="c"> c) 60 minutes</label></li>
+                <li><label><input type="radio" name="q16" value="d"> d) 24 hours</label></li>
+            </ul>
+            <button onclick="checkAnswer(16)">Submit</button>
+        </div>
+        
+        <div id="question17" class="question">
+            <p>17. Which AWS service can be used to set up monitoring and receive alerts about your AWS resources?</p>
+            <ul>
+                <li><label><input type="radio" name="q17" value="a"> a) AWS Lambda</label></li>
+                <li><label><input type="radio" name="q17" value="b"> b) AWS CloudWatch</label></li>
+                <li><label><input type="radio" name="q17" value="c"> c) Amazon S3</label></li>
+                <li><label><input type="radio" name="q17" value="d"> d) Amazon RDS</label></li>
+            </ul>
+            <button onclick="checkAnswer(17)">Submit</button>
+        </div>
+        
+        <div id="question18" class="question">
+            <p>18. What is the purpose of AWS CloudFormation?</p>
+            <ul>
+                <li><label><input type="radio" name="q18" value="a"> a) To develop web applications</label></li>
+                <li><label><input type="radio" name="q18" value="b"> b) To automate the provisioning and management of AWS resources</label></li>
+                <li><label><input type="radio" name="q18" value="c"> c) To run containers</label></li>
+                <li><label><input type="radio" name="q18" value="d"> d) To manage user identities</label></li>
+            </ul>
+            <button onclick="checkAnswer(18)">Submit</button>
+        </div>
+        
+        <div id="question19" class="question">
+            <p>19. What does the AWS Free Tier offer to new AWS customers?</p>
+            <ul>
+                <li><label><input type="radio" name="q19" value="a"> a) A limited amount of free AWS services for 30 days</label></li>
+                <li><label><input type="radio" name="q19" value="b"> b) Unlimited access to all AWS services for one year</label></li>
+                <li><label><input type="radio" name="q19" value="c"> c) A free AWS account with no restrictions</label></li>
+                <li><label><input type="radio" name="q19" value="d"> d) A discount on all AWS services for the first year</label></li>
+            </ul>
+            <button onclick="checkAnswer(19)">Submit</button>
+        </div>
+        
+        <div id="question20" class="question">
+            <p>20. What is the purpose of Amazon CloudFront's content delivery network (CDN)?</p>
+            <ul>
+                <li><label><input type="radio" name="q20" value="a"> a) To host databases in the cloud</label></li>
+                <li><label><input type="radio" name="q20" value="b"> b) To distribute content to end-users with low latency and high data transfer speeds</label></li>
+                <li><label><input type="radio" name="q20" value="c"> c) To provide AI and machine learning services</label></li>
+                <li><label><input type="radio" name="q20" value="d"> d) To manage virtual private clouds</label></li>
+            </ul>
+            <button onclick="checkAnswer(20)">Submit</button>
+        </div>
+        <div id="question21" class="question">
+            <p>21. What are the core characteristics of cloud computing according to NIST (National Institute of Standards and Technology)?</p>
+            <ul>
+                <li><label><input type="radio" name="q21" value="a"> a) On-demand self-service, resource pooling, and pay-as-you-go pricing</label></li>
+                <li><label><input type="radio" name="q21" value="b"> b) Local data storage, fixed resource allocation, and long-term contracts</label></li>
+                <li><label><input type="radio" name="q21" value="c"> c) Physical server management, high initial costs, and dedicated networking</label></li>
+            </ul>
+            <button onclick="checkAnswer(21)">Submit</button>
+        </div>
+        
+        <div id="question22" class="question">
+            <p>22. Explain the difference between on-demand self-service and resource pooling in cloud computing.</p>
+            <ul>
+                <li><label><input type="radio" name="q22" value="a"> a) On-demand self-service is the ability to provision resources as needed, and resource pooling is sharing resources among multiple users.</label></li>
+                <li><label><input type="radio" name="q22" value="b"> b) On-demand self-service and resource pooling are synonymous terms.</label></li>
+                <li><label><input type="radio" name="q22" value="c"> c) On-demand self-service is the pre-purchase of resources, and resource pooling is the real-time allocation of resources.</label></li>
+            </ul>
+            <button onclick="checkAnswer(22)">Submit</button>
+        </div>
+        
+        <div id="question23" class="question">
+            <p>23. How does cloud elasticity differ from traditional IT infrastructure scalability?</p>
+            <ul>
+                <li><label><input type="radio" name="q23" value="a"> a) Cloud elasticity allows resources to automatically scale up or down based on demand, while traditional scalability requires manual adjustments.</label></li>
+                <li><label><input type="radio" name="q23" value="b"> b) Cloud elasticity and traditional scalability are identical concepts.</label></li>
+                <li><label><input type="radio" name="q23" value="c"> c) Cloud elasticity is limited to vertical scaling, while traditional scalability allows both vertical and horizontal scaling.</label></li>
+            </ul>
+            <button onclick="checkAnswer(23)">Submit</button>
+        </div>
+        
+        <div id="question24" class="question">
+            <p>24. Describe the concept of an AWS Region.</p>
+            <ul>
+                <li><label><input type="radio" name="q24" value="a"> a) An AWS Region is a specific geographic area where AWS has data centers.</label></li>
+                <li><label><input type="radio" name="q24" value="b"> b) An AWS Region is a single data center within AWS infrastructure.</label></li>
+                <li><label><input type="radio" name="q24" value="c"> c) An AWS Region is a virtual network segment in the AWS cloud.</label></li>
+            </ul>
+            <button onclick="checkAnswer(24)">Submit</button>
+        </div>
+        
+        <div id="question25" class="question">
+            <p>25. What is the significance of Availability Zones in AWS?</p>
+            <ul>
+                <li><label><input type="radio" name="q25" value="a"> a) Availability Zones are different AWS account profiles for secure access control.</label></li>
+                <li><label><input type="radio" name="q25" value="b"> b) Availability Zones represent geographic locations where AWS services are offered.</label></li>
+                <li><label><input type="radio" name="q25" value="c"> c) Availability Zones are AWS customer support centers.</label></li>
+            </ul>
+            <button onclick="checkAnswer(25)">Submit</button>
+        </div>
+        
+        <div id="question26" class="question">
+            <p>26. How does AWS's global network of Edge Locations enhance content delivery?</p>
+            <ul>
+                <li><label><input type="radio" name="q26" value="a"> a) Edge Locations store sensitive data securely away from the cloud.</label></li>
+                <li><label><input type="radio" name="q26" value="b"> b) Edge Locations are local data centers used exclusively for backups.</label></li>
+                <li><label><input type="radio" name="q26" value="c"> c) Edge Locations cache and deliver content to users with low latency.</label></li>
+            </ul>
+            <button onclick="checkAnswer(26)">Submit</button>
+        </div>
+        <div id="question27" class="question">
+            <p>27. What are some key categories of AWS services, and can you provide examples for each?</p>
+            <ul>
+                <li><label><input type="radio" name="q27" value="a"> a) Infrastructure, Databases, and Artificial Intelligence; examples include EC2, RDS, and SageMaker.</label></li>
+                <li><label><input type="radio" name="q27" value="b"> b) User management, File storage, and Data analytics; examples include IAM, EFS, and Redshift.</label></li>
+                <li><label><input type="radio" name="q27" value="c"> c) Networking, E-commerce, and Social media; examples include VPC, Amazon.com, and Facebook.</label></li>
+            </ul>
+            <button onclick="checkAnswer(27)">Submit</button>
+        </div>
+        
+        <div id="question28" class="question">
+            <p>28. Explain the difference between Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS) in AWS.</p>
+            <ul>
+                <li><label><input type="radio" name="q28" value="a"> a) IaaS provides physical hardware, PaaS offers virtualized resources, and SaaS delivers ready-to-use applications.</label></li>
+                <li><label><input type="radio" name="q28" value="b"> b) IaaS, PaaS, and SaaS are all interchangeable terms in AWS.</label></li>
+                <li><label><input type="radio" name="q28" value="c"> c) IaaS focuses on software applications, PaaS provides hardware infrastructure, and SaaS manages network security.</label></li>
+            </ul>
+            <button onclick="checkAnswer(28)">Submit</button>
+        </div>
+        
+        <div id="question29" class="question">
+            <p>29. What are some fundamental security best practices in AWS?</p>
+            <ul>
+                <li><label><input type="radio" name="q29" value="a"> a) Regularly share AWS account credentials with colleagues.</label></li>
+                <li><label><input type="radio" name="q29" value="b"> b) Disable multi-factor authentication for AWS accounts.</label></li>
+                <li><label><input type="radio" name="q29" value="c"> c) Use strong and unique passwords, enable MFA, and regularly update security groups.</label></li>
+            </ul>
+            <button onclick="checkAnswer(29)">Submit</button>
+        </div>
+        
+        <div id="question30" class="question">
+            <p>30. How does AWS assist in compliance with various regulatory standards?</p>
+            <ul>
+                <li><label><input type="radio" name="q30" value="a"> a) AWS does not offer compliance assistance services.</label></li>
+                <li><label><input type="radio" name="q30" value="b"> b) AWS provides compliance resources, such as whitepapers and training, and offers services like AWS Config to help track compliance.</label></li>
+                <li><label><input type="radio" name="q30" value="c"> c) AWS only complies with a limited number of regulations and standards.</label></li>
+            </ul>
+            <button onclick="checkAnswer(30)">Submit</button>
+        </div>
+        <div id="question31" class="question">
+            <p>31. What advantages does a database administrator obtain by using the Amazon Relational Database Service (RDS)?</p>
+            <ul>
+                <li><label><input type="radio" name="q31" value="a"> a) RDS provides 99.99999999999% reliability and durability.</label></li>
+                <li><label><input type="radio" name="q31" value="b"> b) RDS databases automatically scale based on load.</label></li>
+                <li><label><input type="radio" name="q31" value="c"> c) RDS enables users to dynamically adjust CPU and RAM resources.</label></li>
+                <li><label><input type="radio" name="q31" value="d"> d) RDS simplifies relational database administration tasks.</label></li>
+            </ul>
+            <button onclick="checkAnswer(31)">Submit</button>
+        </div>
+        <div id="question32" class="question">
+            <p>32. A Cloud Practitioner requires point-in-time recovery (PITR) for an Amazon DynamoDB table. Who is responsible for configuring and performing backups?</p>
+            <ul>
+                <li><label><input type="radio" name="q32" value="a"> a) AWS is responsible for both tasks.</label></li>
+                <li><label><input type="radio" name="q32" value="b"> b) The customer is responsible for configuring and AWS is responsible for performing backups.</label></li>
+                <li><label><input type="radio" name="q32" value="c"> c) The customer is responsible for both tasks.</label></li>
+                <li><label><input type="radio" name="q32" value="d"> d) AWS is responsible for configuring and the user is responsible for performing backups.</label></li>
+            </ul>
+            <button onclick="checkAnswer(32)">Submit</button>
+        </div>
+        
+        <div id="question33" class="question">
+            <p>33. A large company is interested in avoiding long-term contracts and moving from fixed costs to variable costs. What is the value proposition of AWS for this company?</p>
+            <ul>
+                <li><label><input type="radio" name="q33" value="a"> a) Economies of scale</label></li>
+                <li><label><input type="radio" name="q33" value="b"> b) Pay-as-you-go pricing</label></li>
+                <li><label><input type="radio" name="q33" value="c"> c) Volume pricing discounts</label></li>
+                <li><label><input type="radio" name="q33" value="d"> d) Automated cost optimization</label></li>
+            </ul>
+            <button onclick="checkAnswer(33)">Submit</button>
+        </div>
+        
+        <div id="question34" class="question">
+            <p>34. A customer needs to determine Total Cost of Ownership (TCO) for a workload that requires physical isolation. Which hosting model should be accounted for?</p>
+            <ul>
+                <li><label><input type="radio" name="q34" value="a"> a) Dedicated Hosts</label></li>
+                <li><label><input type="radio" name="q34" value="b"> b) Reserved Instances</label></li>
+                <li><label><input type="radio" name="q34" value="c"> c) On-Demand Instances</label></li>
+                <li><label><input type="radio" name="q34" value="d"> d) Spot Instances</label></li>
+            </ul>
+            <button onclick="checkAnswer(34)">Submit</button>
+        </div>
+        
+        <div id="question35" class="question">
+            <p>35. Which tasks can a user complete using the AWS Cost Management tools? (Select TWO.)</p>
+            <ul>
+                <li><label><input type="checkbox" name="q35" value="a"> a) Automatically terminate AWS resources if budget thresholds are exceeded.</label></li>
+                <li><label><input type="checkbox" name="q35" value="b"> b) Break down AWS costs by day, service, and linked AWS account.</label></li>
+                <li><label><input type="checkbox" name="q35" value="c"> c) Create budgets and receive notifications if current or forecasted usage exceeds the budgets.</label></li>
+                <li><label><input type="checkbox" name="q35" value="d"> d) Launch either EC2 Spot instances or On-Demand instances based on the current pricing.</label></li>
+                <li><label><input type="checkbox" name="q35" value="e"> e) Move data stored in Amazon S3 Standard to an archiving storage class to reduce cost.</label></li>
+            </ul>
+            <button onclick="checkAnswer(35)">Submit</button>
+        </div>
+
+        <div id="question36" class="question">
+            <p>36. Which of the following AWS services are compute services? (Select TWO.)</p>
+            <ul>
+                <li><label><input type="checkbox" name="q36" value="a"> a) AWS Batch</label></li>
+                <li><label><input type="checkbox" name="q36" value="b"> b) AWS CloudTrail</label></li>
+                <li><label><input type="checkbox" name="q36" value="c"> c) AWS Elastic Beanstalk</label></li>
+                <li><label><input type="checkbox" name="q36" value="d"> d) Amazon EFS</label></li>
+                <li><label><input type="checkbox" name="q36" value="e"> e) Amazon Inspector</label></li>
+            </ul>
+            <button onclick="checkAnswer(36)">Submit</button>
+        </div>
+        <div id="question37" class="question">
+            <p>37. Which design principles are enabled by the AWS Cloud to improve the operation of workloads? (Select TWO.)</p>
+            <ul>
+                <li><label><input type="checkbox" name="q37" value="a"> a) Minimize platform design</label></li>
+                <li><label><input type="checkbox" name="q37" value="b"> b) Loose coupling</label></li>
+                <li><label><input type="checkbox" name="q37" value="c"> c) Customized hardware</label></li>
+                <li><label><input type="checkbox" name="q37" value="d"> d) Remove single points of failure</label></li>
+                <li><label><input type="checkbox" name="q37" value="e"> e) Minimum viable product</label></li>
+            </ul>
+            <button onclick="checkAnswer(37)">Submit</button>
+        </div>
+        
+        <div id="question38" class="question">
+            <p>38. A user is planning to launch three EC2 instances behind a single Elastic Load Balancer. The deployment should be highly available.</p>
+            <ul>
+                <li><label><input type="radio" name="q38" value="a"> a) Launch the instances across multiple Availability Zones in a single AWS Region.</label></li>
+                <li><label><input type="radio" name="q38" value="b"> b) Launch the instances as EC2 Spot Instances in the same AWS Region and the same Availability Zone.</label></li>
+                <li><label><input type="radio" name="q38" value="c"> c) Launch the instances in multiple AWS Regions, and use Elastic IP addresses.</label></li>
+                <li><label><input type="radio" name="q38" value="d"> d) Launch the instances as EC2 Reserved Instances in the same AWS Region, but in different Availability Zones.</label></li>
+            </ul>
+            <button onclick="checkAnswer(38)">Submit</button>
+        </div>
+        
+        <div id="question39" class="question">
+            <p>39. Which resource should a new user on AWS use to get help with deploying popular technologies based on AWS best practices, including architecture and deployment instructions?</p>
+            <ul>
+                <li><label><input type="radio" name="q39" value="a"> a) AWS CloudFormation</label></li>
+                <li><label><input type="radio" name="q39" value="b"> b) AWS Artifact</label></li>
+                <li><label><input type="radio" name="q39" value="c"> c) AWS Config</label></li>
+                <li><label><input type="radio" name="q39" value="d"> d) AWS Quick Starts</label></li>
+            </ul>
+            <button onclick="checkAnswer(39)">Submit</button>
+        </div>
+        
+        <div id="question40" class="question">
+            <p>40. A company needs to publish messages to thousands of subscribers simultaneously using a push mechanism. Which AWS service should the company use?</p>
+            <ul>
+                <li><label><input type="radio" name="q40" value="a"> a) AWS Step Functions</label></li>
+                <li><label><input type="radio" name="q40" value="b"> b) Amazon Simple Workflow Service (SWF)</label></li>
+                <li><label><input type="radio" name="q40" value="c"> c) Amazon Simple Notification Service (Amazon SNS)</label></li>
+                <li><label><input type="radio" name="q40" value="d"> d) Amazon Simple Queue Service (Amazon SQS)</label></li>
+            </ul>
+            <button onclick="checkAnswer(40)">Submit</button>
+        </div>
+        
+        <div id="question41" class="question">
+            <p>41. A company uses Amazon EC2 instances to run applications that are dedicated to different departments. The company needs to break out the costs of these applications and allocate them to the relevant department. The EC2 instances run in a single VPC.</p>
+            <ul>
+                <li><label><input type="radio" name="q41" value="a"> a) Enable billing access for IAM users and view the costs in Cost Explorer.</label></li>
+                <li><label><input type="radio" name="q41" value="b"> b) Enable billing alerts through Amazon CloudWatch and Amazon SNS.</label></li>
+                <li><label><input type="radio" name="q41" value="c"> c) Create tags by department on the instances and then run a cost allocation report.</label></li>
+                <li><label><input type="radio" name="q41" value="d"> d) Add additional Amazon VPCs and launch each application in a separate VPC.</label></li>
+            </ul>
+            <button onclick="checkAnswer(41)">Submit</button>
+        </div>
+        
+        <div id="question42" class="question">
+            <p>42. An application uses a PostgreSQL database running on a single Amazon EC2 instance. A Cloud Practitioner has been asked to increase the availability of the database so there is automatic recovery in the case of a failure.</p>
+            <ul>
+                <li><label><input type="radio" name="q42" value="a"> a) Migrate the database to Amazon RDS and enable the Multi-AZ feature.</label></li>
+                <li><label><input type="radio" name="q42" value="b"> b) Configure an Elastic Load Balancer in front of the EC2 instance.</label></li>
+                <li><label><input type="radio" name="q42" value="c"> c) Configure EC2 Auto Recovery to move the instance to another Region.</label></li>
+                <li><label><input type="radio" name="q42" value="d"> d) Set the DeleteOnTermination value to false for the EBS root volume.</label></li>
+            </ul>
+            <button onclick="checkAnswer(42)">Submit</button>
+        </div>
+        
+        <div id="question43" class="question">
+            <p>43. A company is launching a new website which is expected to have highly variable levels of traffic. The website will run on Amazon EC2 and must be highly available.</p>
+            <ul>
+                <li><label><input type="radio" name="q43" value="a"> a) Use the AWS CLI to launch and terminate Amazon EC2 instances to match demand.</label></li>
+                <li><label><input type="radio" name="q43" value="b"> b) Create an Amazon EC2 Auto Scaling group and configure an Elastic Load Balancer.</label></li>
+                <li><label><input type="radio" name="q43" value="c"> c) Determine the highest expected traffic and use an appropriate instance type.</label></li>
+                <li><label><input type="radio" name="q43" value="d"> d) Launch the website using an Amazon EC2 instance running on a dedicated host.</label></li>
+            </ul>
+            <button onclick="checkAnswer(43)">Submit</button>
+        </div>
+        
+        <div id="question44" class="question">
+            <p>44. Which of the following statements best describes the concept of agility in relation to cloud computing on AWS? (Select TWO.)</p>
+            <ul>
+                <li><label><input type="checkbox" name="q44" value="a"> a) The speed at which AWS rolls out new features.</label></li>
+                <li><label><input type="checkbox" name="q44" value="b"> b) The ability to experiment quickly.</label></li>
+                <li><label><input type="checkbox" name="q44" value="c"> c) The elimination of wasted capacity.</label></li>
+                <li><label><input type="checkbox" name="q44" value="d"> d) The ability to automatically scale capacity.</label></li>
+                <li><label><input type="checkbox" name="q44" value="e"> e) The speed at which AWS resources can be created.</label></li>
+            </ul>
+            <button onclick="checkAnswer(44)">Submit</button>
+        </div>
+        
+        <div id="question45" class="question">
+            <p>45. A company runs a batch job on an Amazon EC2 instance, and it takes 6 hours to complete. The workload is expected to double in volume each month with a proportional increase in processing time.</p>
+            <ul>
+                <li><label><input type="radio" name="q45" value="a"> a) Run the batch job on a larger Amazon EC2 instance type with more CPU.</label></li>
+                <li><label><input type="radio" name="q45" value="b"> b) Change the Amazon EC2 volume type to a Provisioned IOPS SSD volume.</label></li>
+                <li><label><input type="radio" name="q45" value="c"> c) Run the application on a bare metal Amazon EC2 instance.</label></li>
+                <li><label><input type="radio" name="q45" value="d"> d) Run the batch workload in parallel across multiple Amazon EC2 instances.</label></li>
+            </ul>
+            <button onclick="checkAnswer(45)">Submit</button>
+        </div>
+        
+        <div id="question46" class="question">
+            <p>46. An individual IAM user must be granted access to an Amazon S3 bucket using a bucket policy. Which element in the S3 bucket policy should be updated to define the user account for which access will be granted?</p>
+            <ul>
+                <li><label><input type="radio" name="q46" value="a"> a) Action</label></li>
+                <li><label><input type="radio" name="q46" value="b"> b) Principal</label></li>
+                <li><label><input type="radio" name="q46" value="c"> c) Resource</label></li>
+                <li><label><input type="radio" name="q46" value="d"> d) Condition</label></li>
+            </ul>
+            <button onclick="checkAnswer(46)">Submit</button>
+        </div>
+        
+        <div id="question47" class="question">
+            <p>47. A Cloud Practitioner needs a tool that can assist with viewing and managing AWS costs and usage over time. Which tool should the Cloud Practitioner use?</p>
+            <ul>
+                <li><label><input type="radio" name="q47" value="a"> a) AWS Budgets</label></li>
+                <li><label><input type="radio" name="q47" value="b"> b) Amazon Inspector</label></li>
+                <li><label><input type="radio" name="q47" value="c"> c) AWS Organizations</label></li>
+                <li><label><input type="radio" name="q47" value="d"> d) AWS Cost Explorer</label></li>
+            </ul>
+            <button onclick="checkAnswer(47)">Submit</button>
+        </div> 
+        <div id="question48" class="question">
+            <p>48. A company plans to deploy a relational database on AWS. The IT department will perform database administration. Which service should the company use?</p>
+            <ul>
+                <li><label><input type="radio" name="q48" value="a"> a) Amazon EC2</label></li>
+                <li><label><input type="radio" name="q48" value="b"> b) Amazon RedShift</label></li>
+                <li><label><input type="radio" name="q48" value="c"> c) Amazon ElastiCache</label></li>
+                <li><label><input type="radio" name="q48" value="d"> d) Amazon DynamoDB</label></li>
+            </ul>
+            <button onclick="checkAnswer(48)">Submit</button>
+        </div>
+        
+        <div id="question49" class="question">
+            <p>49. A company is planning to move a number of legacy applications to the AWS Cloud. The solution must be cost-effective. Which approach should the company take?</p>
+            <ul>
+                <li><label><input type="radio" name="q49" value="a"> a) Migrate the applications to dedicated hosts on Amazon EC2.</label></li>
+                <li><label><input type="radio" name="q49" value="b"> b) Rehost the applications on Amazon EC2 instances that are right-sized.</label></li>
+                <li><label><input type="radio" name="q49" value="c"> c) Use AWS Lambda to host the legacy applications in the cloud.</label></li>
+                <li><label><input type="radio" name="q49" value="d"> d) Use an Amazon S3 static website to host the legacy application code.</label></li>
+            </ul>
+            <button onclick="checkAnswer(49)">Submit</button>
+        </div>
+        
+        <div id="question50" class="question">
+            <p>50. A company must provide access to AWS resources for their employees. Which security practices should they follow? (Select TWO.)</p>
+            <ul>
+                <li><label><input type="checkbox" name="q50" value="a"> a) Enable multi-factor authentication for users.</label></li>
+                <li><label><input type="checkbox" name="q50" value="b"> b) Create IAM policies based on least privilege principles.</label></li>
+                <li><label><input type="checkbox" name="q50" value="c"> c) Disable password policies and management console access.</label></li>
+                <li><label><input type="checkbox" name="q50" value="d"> d) Create IAM users in different AWS Regions.</label></li>
+                <li><label><input type="checkbox" name="q50" value="e"> e) Create IAM Roles and apply them to IAM groups.</label></li>
+            </ul>
+            <button onclick="checkAnswer(50)">Submit</button>
+        </div>
+        
+        <div id="question51" class="question">
+            <p>51. An Amazon Virtual Private Cloud (VPC) can include multiple:</p>
+            <ul>
+                <li><label><input type="radio" name="q51" value="a"> a) AWS Regions.</label></li>
+                <li><label><input type="radio" name="q51" value="b"> b) Edge locations.</label></li>
+                <li><label><input type="radio" name="q51" value="c"> c) Internet gateways.</label></li>
+                <li><label><input type="radio" name="q51" value="d"> d) Availability Zones.</label></li>
+            </ul>
+            <button onclick="checkAnswer(51)">Submit</button>
+        </div>
+        
+        <div id="question52" class="question">
+            <p>52. A Cloud Practitioner anticipates an increase in application traffic at a future date and time when a sales event will take place. How can the Cloud Practitioner configure Amazon EC2 Auto Scaling to ensure the right number of Amazon EC2 instances are available ahead of the event?</p>
+            <ul>
+                <li><label><input type="radio" name="q52" value="a"> a) Configure predictive scaling.</label></li>
+                <li><label><input type="radio" name="q52" value="b"> b) Configure a target tracking scaling policy.</label></li>
+                <li><label><input type="radio" name="q52" value="c"> c) Configure a scheduled scaling policy.</label></li>
+                <li><label><input type="radio" name="q52" value="d"> d) Configure a step scaling policy.</label></li>
+            </ul>
+            <button onclick="checkAnswer(52)">Submit</button>
+        </div>
+        
+        <div id="question53" class="question">
+            <p>53. A company is deploying an application on Amazon EC2 that requires low-latency access to application components in an on-premises data center. Which AWS service or resource can the company use to extend their existing VPC to the on-premises data center?</p>
+            <ul>
+                <li><label><input type="radio" name="q53" value="a"> a) Amazon Connect</label></li>
+                <li><label><input type="radio" name="q53" value="b"> b) AWS Outposts</label></li>
+                <li><label><input type="radio" name="q53" value="c"> c) AWS Direct Connect</label></li>
+                <li><label><input type="radio" name="q53" value="d"> d) Amazon Workspaces</label></li>
+            </ul>
+            <button onclick="checkAnswer(53)">Submit</button>
+        </div>
+        <div id="question54" class="question">
+            <p>54. Which type of credential should a Cloud Practitioner use for programmatic access to AWS resources from the AWS CLI/API?</p>
+            <ul>
+                <li><label><input type="radio" name="q54" value="a"> a) SSL/TLS certificate</label></li>
+                <li><label><input type="radio" name="q54" value="b"> b) SSH public keys</label></li>
+                <li><label><input type="radio" name="q54" value="c"> c) Access keys</label></li>
+                <li><label><input type="radio" name="q54" value="d"> d) User name and password</label></li>
+            </ul>
+            <button onclick="checkAnswer(54)">Submit</button>
+        </div>
+        
+        <div id="question55" class="question">
+            <p>55. A company is designing a new a service that must align with the operational excellence pillar of the AWS Well-Architected Framework.</p>
+            <p>Which design principles should the company follow? (Select TWO.)</p>
+            <ul>
+                <li><label><input type="checkbox" name="q55" value="a"> a) Anticipate failure.</label></li>
+                <li><label><input type="checkbox" name="q55" value="b"> b) Make large-scale changes.</label></li>
+                <li><label><input type="checkbox" name="q55" value="c"> c) Perform operations as code.</label></li>
+                <li><label><input type="checkbox" name="q55" value="d"> d) Perform manual operations.</label></li>
+                <li><label><input type="checkbox" name="q55" value="e"> e) Create static operational procedures.</label></li>
+            </ul>
+            <button onclick="checkAnswer(55)">Submit</button>
+        </div>
+        
+        <div id="question56" class="question">
+            <p>56. A website has a global customer base and users have reported poor performance when connecting to the site.</p>
+            <p>Which AWS service will improve the customer experience by reducing latency?</p>
+            <ul>
+                <li><label><input type="radio" name="q56" value="a"> a) AWS Direct Connect</label></li>
+                <li><label><input type="radio" name="q56" value="b"> b) Amazon EC2 Auto Scaling</label></li>
+                <li><label><input type="radio" name="q56" value="c"> c) Amazon CloudFront</label></li>
+                <li><label><input type="radio" name="q56" value="d"> d) Amazon ElastiCache</label></li>
+            </ul>
+            <button onclick="checkAnswer(56)">Submit</button>
+        </div> 
+        <div id="question57" class="question">
+            <p>57. What is one method of protecting against distributed denial of service (DDoS) attacks in the AWS Cloud?</p>
+            <ul>
+                <li><label><input type="radio" name="q57" value="a"> a) Use Amazon CloudWatch monitoring.</label></li>
+                <li><label><input type="radio" name="q57" value="b"> b) Configure a firewall in front of resources.</label></li>
+                <li><label><input type="radio" name="q57" value="c"> c) Monitor the Service Health Dashboard.</label></li>
+                <li><label><input type="radio" name="q57" value="d"> d) Enable AWS CloudTrail logging.</label></li>
+            </ul>
+            <button onclick="checkAnswer(57)">Submit</button>
+        </div>
+
+        <div id="question58" class="question">
+            <p>58. How much data can a company store in the Amazon S3 service?</p>
+            <ul>
+                <li><label><input type="radio" name="q58" value="a"> a) 1 PB</label></li>
+                <li><label><input type="radio" name="q58" value="b"> b) 100 TB</label></li>
+                <li><label><input type="radio" name="q58" value="c"> c) 100 PB</label></li>
+                <li><label><input type="radio" name="q58" value="d"> d) Virtually unlimited</label></li>
+            </ul>
+            <button onclick="checkAnswer(58)">Submit</button>
+        </div>
+        
+        <div id="question59" class="question">
+            <p>59. A company is deploying a new workload and software licensing requirements dictate that the workload must be run on a specific, physical server.</p>
+            <p>Which Amazon EC2 instance deployment option should be used?</p>
+            <ul>
+                <li><label><input type="radio" name="q59" value="a"> a) Dedicated Instances</label></li>
+                <li><label><input type="radio" name="q59" value="b"> b) Spot Instances</label></li>
+                <li><label><input type="radio" name="q59" value="c"> c) Reserved Instances</label></li>
+                <li><label><input type="radio" name="q59" value="d"> d) Dedicated Hosts</label></li>
+            </ul>
+            <button onclick="checkAnswer(59)">Submit</button>
+        </div>
+        <div id="question60" class="question">
+            <p>60. What are the valid benefits of using the AWS Cloud? (Select TWO.)</p>
+            <ul>
+                <li><label><input type="checkbox" name="q60" value="a"> a) Outsource all operational risk</label></li>
+                <li><label><input type="checkbox" name="q60" value="b"> b) Total control over data center infrastructure.</label></li>
+                <li><label><input type="checkbox" name="q60" value="c"> c) Fast provisioning of IT resources.</label></li>
+                <li><label><input type="checkbox" name="q60" value="d"> d) Ability to go global quickly.</label></li>
+                <li><label><input type="checkbox" name="q60" value="e"> e) Outsource all application development to AWS.</label></li>
+            </ul>
+            <button onclick="checkAnswer(60)">Submit</button>
+        </div>
+        
+        <div id="question61" class="question">
+            <p>61. For which tasks is the use of the AWS account root user required? (Select TWO.)</p>
+            <ul>
+                <li><label><input type="checkbox" name="q61" value="a"> a) Enabling encryption for S3.</label></li>
+                <li><label><input type="checkbox" name="q61" value="b"> b) Viewing AWS CloudTrail logs.</label></li>
+                <li><label><input type="checkbox" name="q61" value="c"> c) Changing the account name.</label></li>
+                <li><label><input type="checkbox" name="q61" value="d"> d) Changing AWS Support plans.</label></li>
+                <li><label><input type="checkbox" name="q61" value="e"> e) Changing payment currency.</label></li>
+            </ul>
+            <button onclick="checkAnswer(61)">Submit</button>
+        </div>
+        <div id="question62" class="question">
+            <p>62. Which AWS service can a company use to discover and protect sensitive data stored in Amazon S3 buckets?</p>
+            <ul>
+                <li><label><input type="radio" name="q62" value="a"> a) Amazon GuardDuty</label></li>
+                <li><label><input type="radio" name="q62" value="b"> b) AWS Policy Generator</label></li>
+                <li><label><input type="radio" name="q62" value="c"> c) Amazon Detective</label></li>
+                <li><label><input type="radio" name="q62" value="d"> d) Amazon Macie</label></li>
+            </ul>
+            <button onclick="checkAnswer(62)">Submit</button>
+        </div>
+        
+        <div id="question63" class="question">
+            <p>63. What benefits can a company gain by deploying a relational database on Amazon RDS instead of Amazon EC2? (Select TWO.)</p>
+            <ul>
+                <li><label><input type="checkbox" name="q63" value="a"> a) Automated backups</label></li>
+                <li><label><input type="checkbox" name="q63" value="b"> b) Schema management</label></li>
+                <li><label><input type="checkbox" name="q63" value="c"> c) Indexing of tables</label></li>
+                <li><label><input type="checkbox" name="q63" value="d"> d) Software patching</label></li>
+                <li><label><input type="checkbox" name="q63" value="e"> e) Root access to OS</label></li>
+            </ul>
+            <button onclick="checkAnswer(63)">Submit</button>
+        </div>
+
+        <div id="question64" class="question">
+            <p>64.A company is planning to deploy an application with a relational database on AWS. The application layer requires access to the
+                database instance's operating system in order to run scripts.
+                The company prefer to keep management overhead to a minimum. Which deployment should be used for the database?
+                </p>
+            <ul>
+                <li><label><input type="radio" name="q64" value="a"> a) Amazon RDS</label></li>
+                <li><label><input type="radio" name="q64" value="b"> b) Amazon DynamoDB</label></li>
+                <li><label><input type="radio" name="q64" value="c"> c) Amazon EC2</label></li>
+                <li><label><input type="radio" name="q64" value="d"> d) Amazon S3</label></li>
+            </ul>
+            <button onclick="checkAnswer(64)">Submit</button>
+        </div>
+        <div id="question65" class="question">
+            <p>65.Customers using AWS services must patch operating systems on which of the following services?</p>
+            <ul>
+                <li><label><input type="radio" name="q65" value="a"> a) AWS Lambda</label></li>
+                <li><label><input type="radio" name="q65" value="b"> b) Amazon EC2</label></li>
+                <li><label><input type="radio" name="q65" value="c"> c) AWS Fargate</label></li>
+                <li><label><input type="radio" name="q65" value="d"> d) Amazon DynamoDB</label></li>
+            </ul>
+            <button onclick="checkAnswer(65)">Submit</button>
+        </div>
+        <div id="question66" class="question">
+            <p>66. Which AWS feature can be used to launch a pre-configured Amazon Elastic Compute Cloud (EC2) instance?</p>
+            <ul>
+                <li><label><input type="radio" name="q66" value="a"> a) Amazon Elastic Block Store (EBS)</label></li>
+                <li><label><input type="radio" name="q66" value="b"> b) Amazon EC2 Systems Manager</label></li>
+                <li><label><input type="radio" name="q66" value="c"> c) Amazon Machine Image (AMI)</label></li>
+                <li><label><input type="radio" name="q66" value="d"> d) Amazon AppStream 2.0</label></li>
+            </ul>
+            <button onclick="checkAnswer(66)">Submit</button>
+        </div>
+
+        <div id="question67" class="question">
+            <p>67. Which of the following AWS features or services can be used to provide root storage volumes for Amazon EC2 instances?</p>
+            <ul>
+                <li><label><input type="radio" name="q67" value="a"> a) Amazon Elastic Block Store (EBS)</label></li>
+                <li><label><input type="radio" name="q67" value="b"> b) Amazon Machine Image</label></li>
+                <li><label><input type="radio" name="q67" value="c"> c) Amazon Elastic File System (EFS)</label></li>
+                <li><label><input type="radio" name="q67" value="d"> d) Amazon Simple Storage Service (S3)</label></li>
+            </ul>
+            <button onclick="checkAnswer(67)">Submit</button>
+        </div>
+        
+        <div id="question68" class="question">
+            <p>68. Which AWS service or feature can assist with protecting a website that is hosted outside of AWS?</p>
+            <ul>
+                <li><label><input type="radio" name="q68" value="a"> a) Amazon VPC route tables</label></li>
+                <li><label><input type="radio" name="q68" value="b"> b) Amazon EC2 security groups</label></li>
+                <li><label><input type="radio" name="q68" value="c"> c) Amazon VPC network ACLs</label></li>
+                <li><label><input type="radio" name="q68" value="d"> d) AWS Web Application Firewall (WAF)</label></li>
+            </ul>
+            <button onclick="checkAnswer(68)">Submit</button>
+        </div>
+
+        <div id="question69" class="question">
+            <p>69. Which AWS service can a team use to deploy infrastructure on AWS using familiar programming languages?</p>
+            <ul>
+                <li><label><input type="radio" name="q69" value="a"> a) AWS Cloud Development Kit (AWS CDK)</label></li>
+                <li><label><input type="radio" name="q69" value="b"> b) Amazon CodeGuru</label></li>
+                <li><label><input type="radio" name="q69" value="c"> c) AWS Config</label></li>
+                <li><label><input type="radio" name="q69" value="d"> d) AWS CodeCommit</label></li>
+            </ul>
+            <button onclick="checkAnswer(69)">Submit</button>
+        </div>
+        
+        <div id="question70" class="question">
+            <p>70. When running applications in the AWS Cloud, which common tasks can AWS manage on behalf of their customers? (Select TWO.)</p>
+            <ul>
+                <li><label><input type="checkbox" name="q70" value="a"> a) Patching database software</label></li>
+                <li><label><input type="checkbox" name="q70" value="b"> b) Application source code auditing</label></li>
+                <li><label><input type="checkbox" name="q70" value="c"> c) Creating a database schema</label></li>
+                <li><label><input type="checkbox" name="q70" value="d"> d) Taking a backup of a database</label></li>
+                <li><label><input type="checkbox" name="q70" value="e"> e) Application security testing</label></li>
+            </ul>
+            <button onclick="checkAnswer(70)">Submit</button>
+        </div>
+        
+        <div id="question71" class="question">
+            <p>71. Which of the following will help a user determine if they need to request an Amazon EC2 service limit increase?</p>
+            <ul>
+                <li><label><input type="radio" name="q71" value="a"> a) AWS Personal Health Dashboard</label></li>
+                <li><label><input type="radio" name="q71" value="b"> b) AWS Cost Explorer</label></li>
+                <li><label><input type="radio" name="q71" value="c"> c) AWS Trusted Advisor</label></li>
+                <li><label><input type="radio" name="q71" value="d"> d) AWS Service Health Dashboard</label></li>
+            </ul>
+            <button onclick="checkAnswer(71)">Submit</button>
+        </div>
+        <div id="question72" class="question">
+            <p>72. How does the AWS cloud increase the speed and agility of execution for customers? (Select TWO.)</p>
+            <ul>
+                <li><label><input type="checkbox" name="q72" value="a"> a) Fast provisioning of resources</label></li>
+                <li><label><input type="checkbox" name="q72" value="b"> b) Private connections to data centers</label></li>
+                <li><label><input type="checkbox" name="q72" value="c"> c) Secured data centers</label></li>
+                <li><label><input type="checkbox" name="q72" value="d"> d) Lower cost of deployment</label></li>
+                <li><label><input type="checkbox" name="q72" value="e"> e) Scalable compute capacity</label></li>
+            </ul>
+            <button onclick="checkAnswer(72)">Submit</button>
+        </div>
+        
+        <div id="question73" class="question">
+            <p>73. A company has multiple AWS accounts and is using AWS Organizations with consolidated billing. Which advantages will they benefit from? (Select TWO.)</p>
+            <ul>
+                <li><label><input type="checkbox" name="q73" value="a"> a) They will receive one bill for the accounts in the Organization.</label></li>
+                <li><label><input type="checkbox" name="q73" value="b"> b) The default service limits in all accounts will be increased.</label></li>
+                <li><label><input type="checkbox" name="q73" value="c"> c) They will receive a fixed discount for all usage across accounts.</label></li>
+                <li><label><input type="checkbox" name="q73" value="d"> d) They may benefit from lower unit pricing for aggregated usage.</label></li>
+                <li><label><input type="checkbox" name="q73" value="e"> e) They will be automatically enrolled in a business support plan.</label></li>
+            </ul>
+            <button onclick="checkAnswer(73)">Submit</button>
+        </div>
+        
+        <div id="question74" class="question">
+            <p>74. Which of the following represents a value proposition for using the AWS Cloud?</p>
+            <ul>
+                <li><label><input type="radio" name="q74" value="a"> a) AWS is responsible for securing your applications.</label></li>
+                <li><label><input type="radio" name="q74" value="b"> b) It is not necessary to enter into long-term contracts.</label></li>
+                <li><label><input type="radio" name="q74" value="c"> c) Customers can request specialized hardware.</label></li>
+                <li><label><input type="radio" name="q74" value="d"> d) AWS provides full access to their data centers.</label></li>
+            </ul>
+            <button onclick="checkAnswer(74)">Submit</button>
+        </div>
+        
+        <div id="question75" class="question">
+            <p>75. A company has many underutilized compute resources on-premises. Which AWS Cloud feature will help resolve this issue?</p>
+            <ul>
+                <li><label><input type="radio" name="q75" value="a"> a) High availability</label></li>
+                <li><label><input type="radio" name="q75" value="b"> b) Elasticity</label></li>
+                <li><label><input type="radio" name="q75" value="c"> c) Global deployment</label></li>
+                <li><label><input type="radio" name="q75" value="d"> d) Fault tolerance</label></li>
+            </ul>
+            <button onclick="checkAnswer(75)">Submit</button>
+        </div>
+        
+        <div id="question76" class="question">
+            <p>76. What can a Cloud Practitioner use to categorize and track AWS costs by project?</p>
+            <ul>
+                <li><label><input type="radio" name="q76" value="a"> a) Cost Allocation Tags</label></li>
+                <li><label><input type="radio" name="q76" value="b"> b) AWS Trusted Advisor</label></li>
+                <li><label><input type="radio" name="q76" value="c"> c) Consolidated billing</label></li>
+                <li><label><input type="radio" name="q76" value="d"> d) Multiple accounts</label></li>
+            </ul>
+            <button onclick="checkAnswer(76)">Submit</button>
+        </div>
+        
+        <div id="question77" class="question">
+            <p>77. A company is deploying a MySQL database on AWS. The database must easily scale and have automatic backup enabled. Which AWS service should the company?</p>
+            <ul>
+                <li><label><input type="radio" name="q77" value="a"> a) Amazon Athena</label></li>
+                <li><label><input type="radio" name="q77" value="b"> b) Amazon DynamoDB</label></li>
+                <li><label><input type="radio" name="q77" value="c"> c) Amazon Aurora</label></li>
+                <li><label><input type="radio" name="q77" value="d"> d) Amazon DocumentDB</label></li>
+            </ul>
+            <button onclick="checkAnswer(77)">Submit</button>
+        </div>
+        
+        <div id="question78" class a="question">
+            <p>78. A company plans to use reserved instances to get discounted pricing for Amazon EC2 instances. The company may need to change the EC2 instance type during the one year period. Which instance purchasing option is the MOST cost-effective for this use case?</p>
+            <ul>
+                <li><label><input type="radio" name="q78" value="a"> a) Standard Reserved Instances</label></li>
+                <li><label><input type="radio" name="q78" value="b"> b) Convertible Reserved Instances</label></li>
+                <li><label><input type="radio" name="q78" value="c"> c) Zonal Reserved Instances</label></li>
+                <li><label><input type="radio" name="q78" value="d"> d) Regional Reserved Instances</label></li>
+            </ul>
+            <button onclick="checkAnswer(78)">Submit</button>
+        </div>
+        
+        <div id="question79" class="question">
+            <p>79. Which of the following is a sole responsibility of AWS?</p>
+            <ul>
+                <li><label><input type="radio" name="q79" value="a"> a) Application deployment</label></li>
+                <li><label><input type="radio" name="q79" value="b"> b) Patch management</label></li>
+                <li><label><input type="radio" name="q79" value="c"> c) Availability Zone management</label></li>
+                <li><label><input type="radio" name="q79" value="d"> d) Customer data access controls</label></li>
+            </ul>
+            <button onclick="checkAnswer(79)">Submit</button>
+        </div>
+        
+        <div id="question80" class="question">
+            <p>80. Which AWS service provides a managed software version control system?</p>
+            <ul>
+                <li><label><input type="radio" name="q80" value="a"> a) Amazon CodeDeploy</label></li>
+                <li><label><input type="radio" name="q80" value="b"> b) AWS CodePipeline</label></li>
+                <li><label><input type="radio" name="q80" value="c"> c) AWS DataSync</label></li>
+                <li><label><input type="radio" name="q80" value="d"> d) AWS CodeCommit</label></li>
+            </ul>
+            <button onclick="checkAnswer(80)">Submit</button>
+        </div>
+        
+        <div id="question81" class="question">
+            <p>81. Which of the following deployments involves the reliability pillar of the AWS Well-Architected Framework?</p>
+            <ul>
+                <li><label><input type="radio" name="q81" value="a"> a) Amazon RDS Multi-AZ deployment</label></li>
+                <li><label><input type="radio" name="q81" value="b"> b) Amazon EBS provisioned IOPS volume</label></li>
+                <li><label><input type="radio" name="q81" value="c"> c) Attach a WebACL to a CloudFront distribution</label></li>
+                <li><label><input type="radio" name="q81" value="d"> d) Use CloudFormation to deploy infrastructure</label></li>
+            </ul>
+            <button onclick="checkAnswer(81)">Submit</button>
+        </div>
+        
+        <div id="question82" class="question">
+            <p>82. A Cloud Practitioner needs to monitor a new Amazon EC2 instance's CPU and network utilization. Which AWS service should be used?</p>
+            <ul>
+                <li><label><input type="radio" name="q82" value="a"> a) Amazon Inspector</label></li>
+                <li><label><input type="radio" name="q82" value="b"> b) AWS CloudTrail</label></li>
+                <li><label><input type="radio" name="q82" value="c"> c) AWS Systems Manager</label></li>
+                <li><label><input type="radio" name="q82" value="d"> d) Amazon CloudWatch</label></li>
+            </ul>
+            <button onclick="checkAnswer(82)">Submit</button>
+        </div>
+        
+        <div id="question83" class="question">
+            <p>83. AWS are able to continually reduce their pricing due to:</p>
+            <ul>
+                <li><label><input type="radio" name="q83" value="a"> a) Economies of scale.</label></li>
+                <li><label><input type="radio" name="q83" value="b"> b) Pay-as-you-go pricing.</label></li>
+                <li><label><input type="radio" name="q83" value="c"> c) Elastic compute services.</label></li>
+                <li><label><input type="radio" name="q83" value="d"> d) Compute savings plans.</label></li>
+            </ul>
+            <button onclick="checkAnswer(83)">Submit</button>
+        </div>
+        <div id="question84" class="question">
+            <p>84. Which AWS services can a company use to gather information about activity in their AWS account? (Select TWO.)</p>
+            <ul>
+                <li><label><input type="checkbox" name="q84" value="a"> a) Amazon CloudFront</label></li>
+                <li><label><input type="checkbox" name="q84" value="b"> b) AWS CloudTrail</label></li>
+                <li><label><input type="checkbox" name="q84" value="c"> c) AWS Trusted Advisor</label></li>
+                <li><label><input type="checkbox" name="q84" value="d"> d) Amazon Connect</label></li>
+                <li><label><input type="checkbox" name="q84" value="e"> e) Amazon CloudWatch</label></li>
+            </ul>
+            <button onclick="checkAnswer(84)">Submit</button>
+        </div>
+        <div id="question85" class="question">
+            <p>85. A company is deploying an application in the AWS Cloud. How can they secure the application? (Select TWO.)</p>
+            <ul>
+                <li><label><input type="checkbox" name="q85" value="a"> a) Enable encryption for the application data at rest.</label></li>
+                <li><label><input type="checkbox" name="q85" value="b"> b) Configure public access for the AWS services used by the application.</label></li>
+                <li><label><input type="checkbox" name="q85" value="c"> c) AWS Trusted Advisor</label></li>
+                <li><label><input type="checkbox" name="q85" value="d"> d) Enable monitoring by turning off encryption for data in transit.</label></li>
+                <li><label><input type="checkbox" name="q85" value="e"> e) Provide full admin access to developer and operations staff.</label></li>
+            </ul>
+            <button onclick="checkAnswer(85)">Submit</button>
+        </div>
+
+        <div id="question86" class="question">
+            <p>86. A Cloud Practitioner is developing a new application and wishes to integrate features of AWS services directly into the application.
+                Which of the following is the BEST tool for this purpose?
+                </p>
+            <ul>
+                <li><label><input type="radio" name="q86" value="a"> a) AWS Software Development Kit</label></li>
+                <li><label><input type="radio" name="q86" value="b"> b) AWS CodeDeploy</label></li>
+                <li><label><input type="radio" name="q86" value="c"> c) AWS Command Line Interface (CLI)</label></li>
+                <li><label><input type="radio" name="q86" value="d"> d) WS CodePipeline</label></li>
+            </ul>
+            <button onclick="checkAnswer(86)">Submit</button>
+        </div>
+        
+        <div id="question87" class="question">
+            <p>87. A user needs to identify underutilized Amazon EC2 instances to reduce costs. Which AWS service or feature will meet this requirement?</p>
+            <ul>
+                <li><label><input type="radio" name="q87" value="a"> a) AWS CodeBuild</label></li>
+                <li><label><input type="radio" name="q87" value="b"> b) AWS Trusted Advisor</label></li>
+                <li><label><input type="radio" name="q87" value="c"> c) AWS Cost Explorer</label></li>
+                <li><label><input type="radio" name="q87" value="d"> d) AWS Personal Health Dashboard</label></li>
+            </ul>
+            <button onclick="checkAnswer(87)">Submit</button>
+        </div>
+        
+        <div id="question88" class="question">
+            <p>88.Which of the following can an AWS customer use to launch a new ElastiCache cluster? (Select TWO.)</p>
+            <ul>
+                <li><label><input type="checkbox" name="q88" value="a"> a) AWS CloudFormation</label></li>
+                <li><label><input type="checkbox" name="q88" value="b"> b) AWS Concierge</a></li>
+                <li><label><input type="checkbox" name="q88" value="c"> c) AWS Systems Manager</label></li>
+                <li><label><input type="checkbox" name="q88" value="d"> d) AWS Management Console</a></li>
+                <li><label><input type="checkbox" name="q88" value="e"> e) AWS Data Pipeline</label></li>
+            </ul>
+            <button onclick="checkAnswer(88)">Submit</button>
+        </div>
+        
+        <div id="question89" class="question">
+            <p>89. A company is deploying a new web application in a single AWS Region that will be used by users globally.
+                Which AWS services will assist with lowering latency and improving transfer speeds for the global users? (Select TWO.)</p>
+            <ul>
+                <li><label><input type="checkbox" name="q89" value="a"> a) AWS Direct Connect</label></li>
+                <li><label><input type="checkbox" name="q89" value="b"> b) AWS Global Accelerator</label></li>
+                <li><label><input type="checkbox" name="q89" value="c"> c) Amazon CloudFront</label></li>
+                <li><label><input type="checkbox" name="q89" value="d"> d) AWS Transfer Gateway</label></li>
+                <li><label><input type="checkbox" name="q89" value="e"> e) AWS Snowcone</label></li>
+            </ul>
+            <button onclick="checkAnswer(89)">Submit</button>
+        </div>
+        
+        <div id="question90" class="question">
+            <p>90. For what purpose would a Cloud Practitioner access AWS Artifact?</p>
+            <ul>
+                <li><label><input type="radio" name="q90" value="a"> a) Download configuration details for all AWS resources</label></li>
+                <li><label><input type="radio" name="q90" value="b"> b) Access training materials for AWS services.</label></li>
+                <li><label><input type="radio" name="q90" value="c"> c) Create a security assessment report for AWS services.</label></li>
+                <li><label><input type="radio" name="q90" value="d"> d) Gain access to AWS security and compliance documents</label></li>
+            </ul>
+            <button onclick="checkAnswer(90)">Submit</button>
+        </div>
+        
+        <div id="question91" class="question">
+            <p>91.Which AWS Cloud service provides recommendations on how to optimize performance for AWS services?</p>
+            <ul>
+                <li><label><input type="radio" name="q91" value="a"> a) Amazon Inspector</label></li>
+                <li><label><input type="radio" name="q91" value="b"> b) AWS Trusted Advisor</label></li>
+                <li><label><input type="radio" name="q91" value="c"> c) Amazon CloudWatch</label></li>
+                <li><label><input type="radio" name="q91" value="d"> d) AWS CloudTrail</label></li>
+            </ul>
+            <button onclick="checkAnswer(91)">Submit</button>
+        </div>
+        
+        <div id="question92" class="question">
+            <p>92. A company is migrating a monolithic application that does not scale well into the cloud and refactoring it into a microservices architecture.
+                Which best practice of the AWS Well-Architected Framework does this plan relate to?</p>
+            <ul>
+                <li><label><input type="radio" name="q92" value="a"> a) Stop spending money on undifferentiated heavy lifting.</label></li>
+                <li><label><input type="radio" name="q92" value="b"> b) Implement loosely coupled services</label></li>
+                <li><label><input type="radio" name="q92" value="c"> c) Manage change in automation.</label></li>
+                <li><label><input type="radio" name="q92" value="d"> d) Use multiple solutions to improve performance.</label></li>
+            </ul>
+            <button onclick="checkAnswer(92)">Submit</button>
+        </div>
+        
+        <div id="question93" class="question">
+            <p>93.What are AWS Identity and Access Management (IAM) access keys used for?</p>
+            <ul>
+                <li><label><input type="radio" name="q93" value="a"> a) Logging in to the AWS Management Console.</label></li>
+                <li><label><input type="radio" name="q93" value="b"> b) Ensuring the integrity of log files.</label></li>
+                <li><label><input type="radio" name="q93" value="c"> c) Making programmatic calls to AWS from AWS APIs.</label></li>
+                <li><label><input type="radio" name="q93" value="d"> d) Enabling encryption in transit for web servers.</label></li>
+            </ul>
+            <button onclick="checkAnswer(93)">Submit</button>
+        </div>
+        
+        <div id="question94" class="question">
+            <p>94. What is the best practice for managing AWS IAM access keys?</p>
+            <ul>
+                <li><label><input type="radio" name="q94" value="a"> a) There is no need to manage access keys./label></li>
+                <li><label><input type="radio" name="q94" value="b"> b) Customers should rotate access keys regularly</label></li>
+                <li><label><input type="radio" name="q94" value="c"> c) AWS rotate access keys on a schedule.</label></li>
+                <li><label><input type="radio" name="q94" value="d"> d) Never use access keys, always use IAM roles.</label></li>
+            </ul>
+            <button onclick="checkAnswer(94)">Submit</button>
+        </div>
+        
+        <div id="question95" class="question">
+            <p>95. According to the AWS shared responsibility model, which of the following is a responsibility of AWS?</p>
+            <ul>
+                <li><label><input type="radio" name="q95" value="a"> a) Configuring network ACLs to block malicious attacks.</label></li>
+                <li><label><input type="radio" name="q95" value="b"> b) Patching software running on Amazon EC2 instances.label></li>
+                <li><label><input type="radio" name="q95" value="c"> c) Updating the firmware on the underlying EC2 hosts.</label></li>
+                <li><label><input type="radio" name="q95" value="d"> d) Updating security group rules to enable connectivity</label></li>
+            </ul>
+            <button onclick="checkAnswer(95)">Submit</button>
+        </div>
+        
+        <div id="question96" class="question">
+            <p>96. Which AWS service can be used to quickly create development and test environments for applications?</p>
+            <ul>
+                <li><label><input type="radio" name="q96" value="a"> a) AWS CloudTrail</label></li>
+                <li><label><input type="radio" name="q96" value="b"> b) AWS CloudFormation</label></li>
+                <li><label><input type="radio" name="q96" value="c"> c) AWS Elastic Beanstalk</label></li>
+                <li><label><input type="radio" name="q96" value="d"> d) AWS Organizations</label></li>
+            </ul>
+            <button onclick="checkAnswer(96)">Submit</button>
+        </div>
+        
+        <div id="question97" class="question">
+            <p>97. A company is planning to use Amazon S3 to store and serve their media files. What kind of storage class is most cost-effective for infrequently accessed data?</p>
+            <ul>
+                <li><label><input type="radio" name="q97" value="a"> a) S3 Standard</label></li>
+                <li><label><input type="radio" name="q97" value="b"> b) S3 Intelligent-Tiering</label></li>
+                <li><label><input type="radio" name="q97" value="c"> c) S3 One Zone-IA</label></li>
+                <li><label><input type="radio" name="q97" value="d"> d) S3 Glacier</label></li>
+            </ul>
+            <button onclick="checkAnswer(97)">Submit</button>
+        </div>
+        
+        <div id="question98" class="question">
+            <p>98. A company is looking for a fully managed, scalable, serverless data warehouse service. Which AWS service should they use?</p>
+            <ul>
+                <li><label><input type="radio" name="q98" value="a"> a) Amazon RDS</label></li>
+                <li><label><input type="radio" name="q98" value="b"> b) Amazon Redshift</label></li>
+                <li><label><input type="radio" name="q98" value="c"> c) Amazon DynamoDB</label></li>
+                <li><label><input type="radio" name="q98" value="d"> d) Amazon Aurora</label></li>
+            </ul>
+            <button onclick="checkAnswer(98)">Submit</button>
+        </div>
+        
+        <div id="question99" class="question">
+            <p>99. A company needs to ensure that data transferred between their on-premises data center and AWS is encrypted. Which service can they use to establish a dedicated network connection with AWS for this purpose?</p>
+            <ul>
+                <li><label><input type="radio" name="q99" value="a"> a) AWS Direct Connect</label></li>
+                <li><label><input type="radio" name="q99" value="b"> b) Amazon VPC Peering</label></li>
+                <li><label><input type="radio" name="q99" value="c"> c) AWS Site-to-Site VPN</label></li>
+                <li><label><input type="radio" name="q99" value="d"> d) AWS Transit Gateway</label></li>
+            </ul>
+            <button onclick="checkAnswer(99)">Submit</button>
+        </div>
+        
+        <div id="question100" class="question">
+            <p>100. Which AWS service can be used for real-time monitoring of AWS resources and applications?</p>
+            <ul>
+                <li><label><input type="radio" name="q100" value="a"> a) AWS CloudTrail</label></li>
+                <li><label><input type="radio" name="q100" value="b"> b) AWS CloudWatch</label></li>
+                <li><label><input type="radio" name="q100" value="c"> c) AWS X-Ray</label></li>
+                <li><label><input type="radio" name="q100" value="d"> d) AWS Trusted Advisor</label></li>
+            </ul>
+            <button onclick="checkAnswer(100)">Submit</button>
+        </div>
+                
+    </div> 
+
+    <div id="results"></div>
+
+    <script>
+        // Store correct answers
+        const correctAnswers = {
+            1: "c",
+            2: "c",
+            3: "a",
+            4: "b",
+            5: "a",
+            6: "a",
+            7: "c",
+            8: "b",
+            9: "c", 
+            10: "c",
+            11: "b",
+            12: "b",
+            13: "c",
+            14: "c",
+            15: "c",
+            16: "b",
+            17: "b",
+            18: "b",
+            19: "a",
+            20: "b", 
+            20: "b",
+            21: "a",
+            22: "a",
+            23: "a",
+            24: "a",
+            25: "b",
+            26: "c",
+            27: "a",
+            28: "a",
+            29: "c",
+            30: "b",
+            31: "d",
+            32: "b",
+            33: "b",
+            34: "a",
+            35: ["b", "c"],
+            36: ["a", "c"],
+            37: ["b", "d"],
+            38: "a",
+            39: "d",
+            40: "c",
+            41: "c",
+            42: "a",
+            43: "b",
+            44: ["b", "e"],
+            45: "d",
+            46: "b",
+            47: "d",
+            48: "a",
+            49: "c",
+            50: ["a", "b"],
+            51: "d",
+            52: "c",
+            53: "b",
+            54: "c",
+            55: ["a", "c"],
+            56: "c",
+            57: "b", 
+            58: "d",
+            59: "d",
+            60: ["c","d",],
+            61: ["c", "d"],
+            62: "d", 
+            63: ["a", "d"],
+            64: "d",
+            65: "b",
+            66: "c",
+            67: "a",
+            68: "d",
+            69: "a",
+            70: ["a", "d"],
+            71: "c",
+            72: ["a", "e"],
+            73: ["a", "d"],
+            74: "b",
+            75: "b",
+            76: "a",
+            77: "c", 
+            78: "b",
+            79: "d",
+            80: "d",
+            81: "a",
+            82: "d", 
+            83: "a",
+            84: ["b", "e"],
+            85: ["a", "d"],
+            86: "a",
+            87: "b",
+            88: ["a", "d"],
+            89: ["a", "c"],
+            90: "d",
+            91: "b",
+            92: "b",
+            93: "c",
+            94: "b",
+            95: "c",
+            96: "c",
+            97: "c",
+            98: "c",
+            99: "c",
+            100: "c",
+        };
+
+
+    // Keep track of the correct answers
+    let userScore = 0;
+
+    // Function to check the selected answer for any question
+    function checkAnswer(questionNumber) {
+        const selectedAnswers = Array.from(document.querySelectorAll(`input[name="q${questionNumber}"]:checked`));
+        if (selectedAnswers.length > 0) {
+            const userAnswers = selectedAnswers.map(answer => answer.value);
+            const isCorrect = userAnswers.every(answer => correctAnswers[questionNumber].includes(answer));
+            if (isCorrect) {
+                document.getElementById(`question${questionNumber}`).style.backgroundColor = "green";
+                userScore++;
+            } else {
+                document.getElementById(`question${questionNumber}`).style.backgroundColor = "red";
+            }
+        } else {
+            alert("Please select at least one answer.");
+        }
+
+        // Update the user's score
+        document.getElementById("score").textContent = `Correct answers: ${userScore}`;
+    }
+    </script>
+</body>
+</html>
